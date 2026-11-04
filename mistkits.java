@@ -26,7 +26,7 @@ public class MistKitsPlugin extends JavaPlugin implements Listener, CommandExecu
 
     // Added explicit  and  parameters here
     private final Map adminMovingKits = new HashMap<>();
-    private final Set registeredKits = new LinkedHashSet<>(Arrays.asList("Default", "Archer", "Warrior"));
+    private final Set registeredKits = new LinkedHashSet<>(Arrays.asList("Default"));
 
     @Override
     public void onEnable() {
